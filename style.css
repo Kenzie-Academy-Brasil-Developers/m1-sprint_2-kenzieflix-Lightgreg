@@ -1,0 +1,103 @@
+*{
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+
+.tudo{
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black
+    
+    ;
+}
+
+.logo{}
+
+.logo img{
+    width: 229px;
+    height: 68px;
+    margin: 42px auto;
+}
+
+.caixa_pergunta{
+    width: 336px;
+    height: 42px;
+    color: white;
+    margin: 73px auto 61px;
+}
+
+.caixa_pergunta .pergunta{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px; 
+   }
+
+.pergunta{}
+
+.container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: #121214;
+    width: 100%;
+    
+    }
+    
+
+.container .caixa{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+    /* height: 160px; */
+    justify-content: space-between;
+   }
+
+.caixa .usuario{
+    width: 160px;
+    height: 160px;
+    color: #9C9C9C;
+    border: 1.5px solid transparent;
+    border-radius: 8px;
+    object-fit: scale-down;
+    }
+.caixa .usuario:hover{
+    border-color: white;
+    color: white;
+    }
+
+.caixa .usuario img{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    }
+
+.container .perfis{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    width: 206px;
+    border-radius: 8px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    margin: 100px auto auto;
+}
+.container .perfis:hover{
+    background-color: white;
+    color: black;
+    }
+
+
+
+
+
