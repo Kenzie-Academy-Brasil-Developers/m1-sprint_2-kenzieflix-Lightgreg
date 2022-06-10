@@ -1,3 +1,4 @@
+
 .tudo{
     font-family: 'IBM Plex Sans', sans-serif;
     display: flex;
@@ -46,30 +47,51 @@
     
 
 .container .caixa{
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     text-align: center;
     width: 700px;
     /* height: 160px; */
     justify-content: space-between;
+    object-fit: cover;
    }
 
 .caixa .usuario{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
     width: 160px;
     height: 160px;
     color: #9C9C9C;
-    border: 1.5px solid transparent;
-    border-radius: 8px;
+    border: 1.5px solid #121214;
+    border-radius: 8px 
+     }
+
+    .caixa .usuario .nome{
+        display: block;
+        font-family: IBM Plex Sans;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;     
+        margin: 176px auto auto;                
     }
+.caixa .usuario{
+    background-image: url(./img/avatar1.png);
+    }
+.caixa .usuario~.usuario{
+    background-image: url(./img/avatar2.png);
+    }
+.caixa .usuario~.usuario~.usuario{
+    background-image: url(./img/avatar3.png);
+    }
+.caixa .usuario~.usuario~.usuario~.usuario{
+    background-image: url(./img/Frame.png);
+    }
+
 .caixa .usuario:hover{
     border-color: white;
     color: white;
-    }
-
-.caixa .usuario img{
-    width: 160px;
-    height: 160px;
-    border-radius: 8px;
     }
 
 .container .perfis{
