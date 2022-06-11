@@ -53,6 +53,7 @@
     /* height: 160px; */
     justify-content: space-between;
     object-fit: cover;
+    cursor: pointer;
    }
 
 .caixa .usuario{
@@ -63,7 +64,7 @@
     height: 160px;
     color: #9C9C9C;
     border: 1.5px solid #121214;
-    border-radius: 8px 
+    border-radius: 8px
      }
 
     .caixa .usuario .nome{
