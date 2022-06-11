@@ -39,8 +39,7 @@
     justify-content: center;
     align-items: center;
     background-color: #121214;
-    width: 100%;
-    
+    width: 100%;    
     }
     
 
@@ -52,8 +51,7 @@
     width: 700px;
     /* height: 160px; */
     justify-content: space-between;
-    object-fit: cover;
-    cursor: pointer;
+    object-fit: cover;    
    }
 
 .caixa .usuario{
@@ -62,10 +60,11 @@
     justify-content: center;
     width: 160px;
     height: 160px;
+    cursor: pointer;
     color: #9C9C9C;
     border: 1.5px solid #121214;
     border-radius: 8px
-     }
+    }
 
     .caixa .usuario .nome{
         display: block;
